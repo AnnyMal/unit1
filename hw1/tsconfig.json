@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",//свойство определяет какой версии js будет код
+    "experimentalDecorators": true,//позволяют добавлять функционал в новый объект, исп-ся в ангуляр
+    "lib": ["ES2018","DOM"],//здесь библиотеки, через дом можно исп-ть дом структуру
+    "sourceMap": true //в процессе компилляции ссылка на исходники
+  },
+  "files": [
+    "./index.ts"],
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compileOnSave": true
+}
